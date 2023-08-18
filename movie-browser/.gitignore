@@ -1,0 +1,23 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/movie-browser/node_modules/*
+/movie-browser/.pnp
+/movie-browser/.pnp.js
+
+# testing
+/movie-browser/coverage
+
+# production
+/movie-browser/build
+
+# misc
+/movie-browser/.DS_Store
+/movie-browser/.env.local
+/movie-browser/.env.development.local
+/movie-browser/.env.test.local
+/movie-browser/.env.production.local
+
+/movie-browser/npm-debug.log*
+/movie-browser/yarn-debug.log*
+/movie-browser/yarn-error.log*
